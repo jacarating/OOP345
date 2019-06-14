@@ -1,0 +1,21 @@
+Jacob Carating 
+157 725 177
+jacarating@myseneca.ca
+Workshop 1: Reflection
+	After completing this workshop I have refreshed my memory on an few topics like, dynamic memory, and helper functions. I’ve learned how to code a main function that receives two parameter output the content as intended. I’ve acquired the knowledge about internal and external linkage and its’ usage in programming (defining class variables).
+Example from code of internal linkage within the overloaded operator <<:
+static int iCounter = INITIAL;
+-	With the following declaration, the variable iCounter will now become a class variable that will store the argument number and increment after outputting the class’ String content. 
+-	Class variables are useful to have when we want to keep track of how many times an object type has been instantiated.  
+Example from code of external linkage within the String.h file:
+extern const int INITIAL;
+-	This declaration tells the compiler that this variable is defined in another translation unit (w1.cpp). Without the keyword extern, the compiler will give use an undefined symbol error.
+Example from code of external linkage within the w1.cpp file:
+const int INITIAL = 3; 
+-	Declaration can have keyword extern, however compiler ignores the keyword when initialization is present. We omit the keyword extern in the translation unit that defines the entity.
+In the function called process, it calls the String type constructor and passes the received argument to the constructor. Then it calls the overloaded operator << for outputting which then calls the display function.
+When upgrading my String module, I changed the data member from a char array, to a pointer that was then dynamically allocated memory based on the string length in the contructor. I had to also declare and define a destructor that would delete[] that pointers’ dynamically allocated memory. 
+Quiz correction:
+3) Which one is better a wild pointer or nullptr? Why?
+Nullptr, because any run-time attempt to dereference the address will terminate execution rather than generate erroneous results.
+

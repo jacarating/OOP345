@@ -1,0 +1,45 @@
+/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: May 25, 2019
+Workshop	: Workshop 2
+================================================================================================================
+*/
+
+
+Workshop Reflection:
+
+What I have learned: With completing this workshop I have learned how to utilize the chrono library.
+		     This includes creating timepoint objects, duration casting, to successfully 
+		     capture the length of time (duration) it took to perform a variety of function
+		     calls. This workshop require me to program a move constructor and a move assignment 
+	  	     operator which are new concepts to me, but with thorough research and some testing I 
+	             was able to fully understand what they do, and how they were effectively used in my program. 
+		     This workshop also required file reading which allowed me to refresh my memory on how
+		     to perform the necessary operations (getline, seekg, fin.open, fin.eof, and fin.get).
+	   	     
+
+Question 1: The reason for the difference between the copy and move operations
+
+Answer: Copy operations consist of copying one objects' resources to another object into a separate memory location, 
+	whereas move operations consist of one object taking over the resources of the original object, taking its' memory
+	location.
+
+Question 2: The dynamic allocation of addresses to objects instead of objects themselves
+
+Answer: Within this workshop I had to set the resource instance pointer to an address instead of 
+copying over the actual objects because dynamic allocation of objects can't occur when they have to be statically
+allocated during instantiation - only addresses can be dynamically allocated.
+
+
+tArray = src.tArray
+
+
+Quiz Reflection:
+
+N/A, got all answers correct.

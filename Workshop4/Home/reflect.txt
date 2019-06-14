@@ -1,0 +1,55 @@
+	/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: June 9th, 2019
+Workshop	: Workshop 4
+================================================================================================================
+*/
+
+
+Workshop Reflection:
+What I have learned: 
+- How to implement logic to support composition and aggregations relationships.
+- How to use pointer to pointers (**).
+- How to shift elements in a dynamic array of addresses.
+
+Question 1 : The difference between the implementations of a composition and an aggregation.
+
+Answer:
+Compositions are responsible for the construction and destruction of its component object.
+In the workshop I used a pointer to point to a Message object within the MessagePack object
+because a MessagePack can't exist without a Message and vice versa. Meaning that they are
+incomplete without each other. I also had to code the destructor to destroy the pointer when
+the composition goes out of scope.
+
+Aggregations are a less coupled and they do not manage the construction or destruction of its'
+aggragatee but instead keeps a reference. I used a const Message** because the aggregatee lies
+outside of the aggregator and the aggregator is not responsible for changing anything about it.
+The aggregator (Notifications) doesnt need a destructor for the aggregatee because it will
+manage its own lifetime.
+
+
+Question 2: The difference between the implementations of move and copy functions in a composition
+and an aggregation
+
+Answer:
+In the composition the move assignment is used to copy over regular pointer addresses and in the
+aggregation it copies over the const pointer addresses. First it deletes the allocated memory
+for that sub object or aggregatee then it copies over the addresses and then sets the right hand 
+side objects resource pointers to nullptr and data members to zero.
+
+The difference in the copy assignment operator was the keyword const:
+
+ptrptr = new const Message*[src.maxadd]; vs 	msgptr = new Message[n];
+
+Then they copy over the resource instance pointer data so that the data is independant from
+the copy and the original. The right hand side object will keep their data and the left hand
+side object will get a copy of it.
+
+The difference between move and copy operations is ownership.
+

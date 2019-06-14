@@ -1,0 +1,21 @@
+Script started on Sat May 25 23:57:52 2019
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w2 gutenberg_shakespeare 
+0-arg Constructor - a.size = 0
+1-arg Constructor - b.size = 124456
+Copy Constructor  - c.size = 124456
+Copy Assignment   - a.size = 124456
+
+Execution Times:
+0-arg Constructor     0 seconds
+1-arg Constructor    90 seconds
+Copy Constructor     15 seconds
+Copy Assignment      14 seconds
+Destructor           11 seconds
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sat May 25 23:57:52 2019

@@ -1,0 +1,88 @@
+Script started on Fri 08 Feb 2019 05:30:02 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w4 345_w4_test.dat 
+
+Messages loaded from file
+=========================
+>User  : jim
+ Tweet : Workshop 4 is cool
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+Message Pack 1 Contents
+=======================
+ No of Messages 4
+>User  : jim
+ Tweet : Workshop 4 is cool
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+Message Pack 2 Contents
+=======================
+ No of Messages 4
+>User  : jim
+ Tweet : Workshop 4 is cool
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+Message Pack 1 Contents
+=======================
+ No of Messages 0
+
+Notification Contents
+=====================
+ No of Messages 0
+
+Notification Contents
+=====================
+ No of Messages 3
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+Backup Contents
+===============
+ No of Messages 3
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+Notification Contents
+=====================
+ No of Messages 0
+
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Fri 08 Feb 2019 05:30:02 PM EST

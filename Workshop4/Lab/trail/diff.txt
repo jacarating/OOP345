@@ -1,0 +1,14 @@
+In line number 12 of your output:
+The output should be:
+ Reply : jim
+            ^
+But your output is: 
+ Reply : jim 
+            ^
+
+Unmatched character details:
+The character in column 13 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [Space] ASCII code(32)
+

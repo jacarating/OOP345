@@ -1,0 +1,38 @@
+Script started on Tue 29 Jan 2019 12:02:25 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w3 References.txt Sales.txt 
+
+Individual Index Entries
+========================
+Types      : 23
+Pointers   : 26
+References : 26
+Pointers   : 150
+Pointers   : 162
+References : 65
+
+Collated Index Entries
+======================
+Pointers   26 150 162
+References 26 65
+
+Detail Ticket Sales
+===================
+Student : 25
+Adult   : 13
+Student : 12
+Adult   : 6
+Student : 5
+Adult   : 15
+
+Summary of Ticket Sales
+=======================
+Student Tickets =   86.10
+Adult Tickets   =  110.50
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Tue 29 Jan 2019 12:02:26 PM EST

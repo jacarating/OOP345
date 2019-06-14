@@ -1,0 +1,24 @@
+Script started on Thu 07 Feb 2019 04:52:13 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w4 345_w4_test.dat 
+
+Messages loaded from file
+=========================
+>User  : jim
+ Tweet : Workshop 4 is cool
+>User  : harry
+ Reply : jim
+ Tweet : working on workshop 4 now
+>User  : dave
+ Tweet : what the ^#$%!
+>User  : john
+ Reply : harry
+ Tweet : I'm done
+
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Thu 07 Feb 2019 04:52:13 PM EST

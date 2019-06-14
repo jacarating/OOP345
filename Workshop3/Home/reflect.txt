@@ -1,0 +1,37 @@
+	/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: June 5th, 2019
+Workshop	: Workshop 3
+================================================================================================================
+*/
+
+
+Workshop Reflection:
+What I have learned: Completing this workshop I was able to understand templates in regards to inheritance, specialization and calling. 
+I learned how to specialize templates to work with certain data types and follow the logic required to complete the workshop:
+template<> 
+int SummableLVPair<std::string, int>::initial = 0;
+template<>
+std::string SummableLVPair<std::string, std::string>::initial = ""; (Small example of the statement above)
+
+Question 1 : The reason for specializing the sum() member function. 
+
+Answer: The reason why we specialize the sum member function is to allow the program to handle the two types of templates (one for <string, string> and <string, int>). 
+
+Question 2: The reason for specializing the initial value for a summation.
+
+Answer: It was required to specialize the initial value for summation because the program needed to deal with the different template parameters that are received (<string, int> which would be initialized to 0 and <string, string> which would be initialized to an empty string)
+
+Question 3: The reason for defining the class variable outside the class definition.
+
+Answer: We must define the class variable outside of class definition because we need to specialize it to handle different data types with the templates.
+
+Quiz Reflection:
+Question 4) Error, because the condition is in the wrong order. You need to check for nullptr first.
+Question 5) 00000000 00000000 00001011 00000000
