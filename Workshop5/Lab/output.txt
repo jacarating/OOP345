@@ -1,0 +1,18 @@
+Script started on Fri Jun 14 14:33:44 2019
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w5 345_w5_PriceList_prof.txt 
+
+Price List with G+S Taxes Included
+==================================
+Description:      Price Price+Tax
+Soap       :       1.29      1.46
+Detergent  :       3.49      3.94
+Lysol      :       3.59      4.06
+Kleenex    :       0.50      0.56
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Fri Jun 14 14:33:44 2019
