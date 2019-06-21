@@ -1,0 +1,40 @@
+	/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: June 15th, 2019
+Workshop	: Workshop 5
+================================================================================================================
+*/
+
+
+Workshop Reflection:
+What I have learned: 
+- How to pass a function object as a parameter.
+- Using a lambda expression to convert grades.
+- Implementing exceptions, with try, catch and throw operations.
+
+Question 1 : The difference between the implementations of a functor and a lambda expression.
+
+Answer: Functors can hold a state and can be used throughout the program whereas a lambda expressions can be used once in a parameter of another function. 
+	If we want to reuse the lambda function we would have to assign it to a variable with auto however the
+	context of the expression would have to change to depending on the implementation.
+
+
+Question 2: A list of the exceptions that you have reported and the cases where you terminated execution normally.
+Answer:
+
+
+Error Code 1: Please enter two .txt filenames on the command line!!! 
+	- The program wasn't passed two files.
+
+Error Code 2: The number of elements received in the constructor is not positive-valued. 
+	- Constructing object with a negative value.
+
+Quiz Reflection: Got all answers correct.
+
+

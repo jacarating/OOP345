@@ -1,0 +1,26 @@
+Script started on Sat 09 Feb 2019 08:53:45 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w5 345_w5_PriceList_prof.txt 345_w5_Student_prof.txt 
+
+Price List with G+S Taxes Included
+==================================
+Description:      Price Price+Tax
+Soap       :       1.29      1.46
+Detergent  :       3.49      3.94
+Lysol      :       3.59      4.06
+Kleenex    :       0.50      0.56
+
+Student List Letter Grades Included
+===================================
+Student No :      Grade    Letter
+203342102  :      67.50        C+
+923416789  :      83.40        A 
+310654789  :      56.70        D+
+201352234  :      63.40        C 
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sat 09 Feb 2019 08:53:45 PM EST

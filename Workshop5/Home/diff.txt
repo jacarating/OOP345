@@ -1,0 +1,14 @@
+In line number 19 of your output:
+The output should be:
+923416789  :      83.40        A 
+                               ^
+But your output is: 
+923416789  :      83.40         A
+                               ^
+
+Unmatched character details:
+The character in column 32 is supposed to be:
+  [A] ASCII code(65)
+but you printed
+  [Space] ASCII code(32)
+
