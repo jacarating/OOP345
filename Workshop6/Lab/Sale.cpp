@@ -8,6 +8,7 @@ Course Code : OOP345
 Section		: SCC
 Date		: July 5th, 2019
 Workshop	: Workshop 6
+Description : This files provides the logic to instatiate Sale objects and display their contents.
 ================================================================================================================
 */
 
@@ -20,6 +21,7 @@ extern int FW;
 
 namespace sict {
 
+	// One-Arguement Constructor: Receives filename and reads each record then stores them into the sequence (products).
 	Sale::Sale(const char* filename) {
 		std::ifstream fin;
 		fin.open(filename);
@@ -32,7 +34,7 @@ namespace sict {
 				}
 			}
 			fin.clear();
-			fin.seekg(0);
+			fin.seekg(0); // Reset position
 			for (int i = 0; i < counter; i++) {
 				products.push_back(readRecord(fin));
 			}
@@ -42,6 +44,7 @@ namespace sict {
 		}
 	}
 
+	// Query: Display current objects content with specified format.
 	void Sale::display(std::ostream& os) const {
 		os << "\nProduct No";
 		os.setf(std::ios::right);
@@ -56,9 +59,10 @@ namespace sict {
 		os.width(FW);
 		os << "Total";
 		os.width(FW);
-		os << total;
+		os << total << std::endl;
 	}
 
+	// Destructor: 
 	Sale::~Sale() {
 		for (auto e : products) {
 			delete e;

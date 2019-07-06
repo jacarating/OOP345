@@ -14,15 +14,9 @@ Workshop	: Workshop 6
 #define SICT_PRODUCT_H
 #include <iostream>
 #include <fstream>
-
+#include "iProduct.h"
 namespace sict {
 
-	class iProduct {
-	public:
-		virtual double price() const = 0;
-		virtual void display(std::ostream& os) const = 0;
-		virtual ~iProduct() {};
-	};
 
 	class Product : public iProduct {
 		int prodno;
