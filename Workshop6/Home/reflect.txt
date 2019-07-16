@@ -1,0 +1,52 @@
+	/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: July 8th, 2019
+Workshop	: Workshop 6
+================================================================================================================
+*/
+
+1) The reason for using the vector container rather than any other available in the STL.
+   
+   The use of a vector over any other sequential container is due to how vectors store data contigously which is similar to an array.
+   Futhermore, vectors can change in size as required and can manage addition and deletion of elements at the end of a sequence.
+
+2) Why there is no need to deallocate the dynamically allocated memory in your own code.
+   
+   With the use of a vector in this workshop it has built in methods to deallocate the object as it goes out of scope. 
+
+3) How the range-based for simplifies coding in this case.
+
+   The range-based for loop dereferences each element of the sequence with each loop; removing the need to worry about each index and accessing each one manually.
+   In other words, I didn't have to have to assign a counter and keep track of the variable to go through each index because the ranged base for loop automatically goes through each element.
+
+Quiz: 
+
+2) auto foo = std::bind(add, 10,20);
+3) Input Iterator, Output Iterator
+4) transform
+5) int result = std::accumulate(a.begin() , a.end(), (int)0);
+6) #include <iostream>
+   #include <fstream>
+
+ int main() {
+     char str[11];
+     char* ptr = str;
+     std::streampos pos;
+
+     std::ifstream f("file.txt", std::ios::in|std::ios::binary); 
+     f.seekg(0, std::ios::beg);
+     
+     while (pos < 11) {
+       f.read(ptr++, 1);
+       pos = f.tellg();
+     }     
+     *--ptr = '\0';
+
+     std::cout << str << std::endl;
+ }

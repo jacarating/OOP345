@@ -1,0 +1,43 @@
+	/*
+================================================================================================================
+Name		: reflect.txt
+Author		: Jacob Carating
+Email		: jacarating@myseneca.ca
+Student #	: 157 725 177
+Course Code 	: OOP345
+Section		: SCC
+Date		: July 15th, 2019
+Workshop	: Workshop 7
+================================================================================================================
+*/
+
+
+1) The reason for using the vector container rather than any other available in the STL. 
+
+  - Vectors stores its data contiguously just like an array, and is optimized for fast random access. 
+    With the two vectors containing the coordinates, it was most efficient to access each element that is store contigously rather than in seperate chucks of memory.
+    Vectors can also change in size as required.
+
+2) List the STL template functions that you used in your solution. 
+
+   I'll show one of each, since I used some more than once: 
+
+   Line 59: mean = accumulate(yCord.begin(), yCord.end(), (T)0) / yCord.size();
+   Line 63: transform(yCord.begin(), yCord.end(), temp.begin(), [&](T i) {return pow((i - mean), 2); });
+   Line 66: sigma = sqrt(std::accumulate(temp.begin(), temp.end(), (T)0) / (temp.size() - 1));
+   Line 74: sumofxsqr = std::inner_product(xCord.begin(), xCord.end(), xCord.begin(), (T)0);
+
+3) Identify where you used lambda expressions.
+   
+   When calculating the variance for standard deviation, this lambda function was required to substract the mean from each element and then square root each of those sums then return it to the new container.
+   Line 63: transform(yCord.begin(), yCord.end(), temp.begin(), [&](T i) {return pow((i - mean), 2); });
+
+4) Comment on the ease of programming associated with the STL
+  
+   With the use of the STL processing data from containers like standard deviation was incredibly easier with the functions that are included. 
+   Instead of having to use multiple loops for calculations, it was replaced by one or two STL template functions.
+
+Quiz Reflection: 
+
+1) const char* str = "This is OOP345";
+6) Neither.

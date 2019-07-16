@@ -1,0 +1,27 @@
+Script started on Sun 10 Mar 2019 05:53:27 PM EDT
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line: w7 345_w7_Simple_prof.dat
+
+****************************************
+*** Processing file [345_w7_Simple_prof.dat]
+****************************************
+
+Data Values
+------------
+       x       y
+  2.1000  8.0000
+  2.5000 12.0000
+  4.0000 14.0000
+  3.6000 10.0000
+
+Statistics
+----------
+  y mean    =  11.0000
+  y sigma   =   2.5820
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sun 10 Mar 2019 05:53:27 PM EDT

@@ -1,0 +1,14 @@
+In line number 15 of your output:
+The output should be:
+
+^
+But your output is: 
+[38;5;9m------------------------
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Newline (\n) or Carriage Retrun (\r)] ASCII code(13)
+but you printed
+  [Escape] ASCII code(27)
+

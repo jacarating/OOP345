@@ -1,0 +1,19 @@
+Script started on Sun 03 Mar 2019 01:58:17 PM EST
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line : w6 345_w6_Sales_at_home_prof.dat 
+
+Product No      Cost Taxable
+     10012     34.56
+     10023     45.67 HST
+     10234     12.32 PST
+     10056     67.54
+     10029     54.12 HST
+     10034     96.30
+     Total    324.47
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sun 03 Mar 2019 01:58:18 PM EST

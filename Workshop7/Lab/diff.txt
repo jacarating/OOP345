@@ -1,0 +1,14 @@
+In line number 14 of your output:
+The output should be:
+  2.1000  8.0000
+          ^
+But your output is: 
+  2.1000   8.0000
+          ^
+
+Unmatched character details:
+The character in column 11 is supposed to be:
+  [8] ASCII code(56)
+but you printed
+  [Space] ASCII code(32)
+
